@@ -5,7 +5,7 @@ Close your wallet and create the file scoobycoin.conf in the folder "%APPDATA%\s
 Paste the following text into scoobycoin.conf and save the file.
 
 rpcuser=rpc_user
-rpcpassword=password
+rpcpassword=rpc_password
 rpcallowip=127.0.0.1
 rpcport=23336
 listen=1
@@ -20,8 +20,8 @@ Download the latest version of cpuminer.
 
 Create a .bat file named mine.bat and paste the following text into mine.bat.
 
-minerd --url=http://127.0.0.1:23336 --userpass=rpc_user:password
+minerd --url=http://127.0.0.1:23336 --userpass=rpc_user:rpc_password
 
 Save the file inside the extracted cpuminer folder.
 
-Open your wallet and execute mine.bat to start mining your scoobycoins.
+Open your wallet and execute mine.bat to start mining your ScoobyCoins.  :)
