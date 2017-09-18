@@ -1,0 +1,27 @@
+ScoobyCoin Mining Directions:
+
+Close your wallet and create the file scoobycoin.conf in the folder "%APPDATA%\scoobycoin\"
+
+Paste the following text into scoobycoin.conf and save the file.
+
+rpcuser=rpc_user
+rpcpassword=password
+rpcallowip=127.0.0.1
+rpcport=23336
+listen=1
+server=1
+addnode=node1.scoobycoin.com
+addnode=node2.scoobycoin.com
+addnode=node3.scoobycoin.com
+addnode=node4.scoobycoin.com
+
+
+Download the latest version of cpuminer.
+
+Create a .bat file named mine.bat and paste the following text into mine.bat.
+
+minerd --url=http://127.0.0.1:23336 --userpass=rpc_user:password
+
+Save the file inside the extracted cpuminer folder.
+
+Open your wallet and execute mine.bat to start mining your scoobycoins.
