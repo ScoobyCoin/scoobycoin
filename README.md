@@ -1,0 +1,2 @@
+# scoobycoin
+ScoobyCoin
