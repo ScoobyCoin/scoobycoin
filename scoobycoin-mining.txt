@@ -1,5 +1,6 @@
 ScoobyCoin Mining Directions:
 
+Option 1, use your computer:
 Close your wallet and create the file scoobycoin.conf in the folder "%APPDATA%\scoobycoin\"
 
 Paste the following text into scoobycoin.conf and save the file.
@@ -25,3 +26,14 @@ minerd --url=http://127.0.0.1:23336 --userpass=rpc_user:rpc_password
 Save the file inside the extracted cpuminer folder.
 
 Open your wallet and execute mine.bat to start mining your ScoobyCoins.  :)
+
+
+Option 2, rent a rig:
+
+1) Download & install ScoobyCoin Wallet https://github.com/ScoobyCoin/scoobycoin/
+
+2) Rent a Scrypt rig at https://www.miningrigrentals.com?ref=42531
+
+3) Find some pools on the ScoobyCoin Bitcoin Talk Announcement Page https://bitcointalk.org/index.php?topic=2189865
+
+4) Enjoy your ScoobyCoins :)
